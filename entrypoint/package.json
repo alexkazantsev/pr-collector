@@ -1,0 +1,24 @@
+{
+  "name": "entrypoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-watch index.js"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^1.3.2",
+    "graphql": "^0.13.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-graphql": "^0.7.5",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-watch": "^2.0.7"
+  }
+}
